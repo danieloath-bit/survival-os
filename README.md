@@ -1,3 +1,5 @@
+<img width="1672" height="941" alt="Survival-OS-hero" src="https://github.com/user-attachments/assets/52521a5a-464f-4aae-8a5c-27a0374851e7" />
+
 # Survival OS
 
 A local-first preparedness dashboard for tracking household supplies, plans, maps, documents, knowledge, and incident activity.
