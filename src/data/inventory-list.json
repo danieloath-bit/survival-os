@@ -1,0 +1,851 @@
+{
+  "schema_version": "1.0.0",
+  "item_shape": {
+    "id": "string_kebab_case_unique",
+    "canonical_name": "string",
+    "category": "string",
+    "subcategory": "string",
+    "aliases": ["string"],
+    "tags": ["string"],
+    "default_unit": "count | litres | millilitres | kilograms | grams | metres | rolls | packs | tablets | doses | cans | bottles | batteries",
+    "is_consumable": true,
+    "is_perishable": false,
+    "allow_custom_aliases": true
+  },
+  "items": [
+    {
+      "id": "drinking-water-potable",
+      "canonical_name": "Drinking water (potable)",
+      "category": "Water & Hydration",
+      "subcategory": "Water",
+      "aliases": [
+        "water",
+        "drinking water",
+        "potable water",
+        "clean water",
+        "fresh water",
+        "safe water",
+        "bottled water",
+        "stored water",
+        "h2o"
+      ],
+      "tags": ["water", "hydration", "essential"],
+      "default_unit": "litres",
+      "is_consumable": true,
+      "is_perishable": false,
+      "allow_custom_aliases": true
+    },
+    {
+      "id": "water-purification-tablets",
+      "canonical_name": "Water purification tablets",
+      "category": "Water & Hydration",
+      "subcategory": "Purification",
+      "aliases": [
+        "purification tablets",
+        "water tablets",
+        "water purifying tablets",
+        "aqua tabs",
+        "aquatabs",
+        "chlorine tablets",
+        "iodine tablets",
+        "water disinfect tablets",
+        "water cleaning tablets",
+        "puri tabs"
+      ],
+      "tags": ["water", "purification", "filtering"],
+      "default_unit": "tablets",
+      "is_consumable": true,
+      "is_perishable": true,
+      "allow_custom_aliases": true
+    },
+    {
+      "id": "portable-water-filter",
+      "canonical_name": "Water filter (portable)",
+      "category": "Water & Hydration",
+      "subcategory": "Filtration",
+      "aliases": [
+        "water filter",
+        "portable water filter",
+        "survival water filter",
+        "lifestraw",
+        "straw filter",
+        "personal filter",
+        "handheld filter",
+        "drink filter"
+      ],
+      "tags": ["water", "filter", "portable"],
+      "default_unit": "count",
+      "is_consumable": false,
+      "is_perishable": false,
+      "allow_custom_aliases": true
+    },
+    {
+      "id": "gravity-water-filter",
+      "canonical_name": "Water filter (gravity)",
+      "category": "Water & Hydration",
+      "subcategory": "Filtration",
+      "aliases": [
+        "gravity filter",
+        "gravity water filter",
+        "drip filter",
+        "hanging water filter",
+        "bucket filter",
+        "family water filter"
+      ],
+      "tags": ["water", "filter", "base camp"],
+      "default_unit": "count",
+      "is_consumable": false,
+      "is_perishable": false,
+      "allow_custom_aliases": true
+    },
+    {
+      "id": "rigid-water-container",
+      "canonical_name": "Water storage container (rigid)",
+      "category": "Water & Hydration",
+      "subcategory": "Storage",
+      "aliases": [
+        "water container",
+        "water jerry can",
+        "water jerry",
+        "water drum",
+        "water storage tank",
+        "hard water container",
+        "water canister"
+      ],
+      "tags": ["water", "storage"],
+      "default_unit": "litres",
+      "is_consumable": false,
+      "is_perishable": false,
+      "allow_custom_aliases": true
+    },
+    {
+      "id": "collapsible-water-container",
+      "canonical_name": "Water storage container (collapsible)",
+      "category": "Water & Hydration",
+      "subcategory": "Storage",
+      "aliases": [
+        "collapsible water container",
+        "foldable water container",
+        "soft water container",
+        "camping water bag",
+        "water bladder",
+        "water cube"
+      ],
+      "tags": ["water", "storage", "portable"],
+      "default_unit": "litres",
+      "is_consumable": false,
+      "is_perishable": false,
+      "allow_custom_aliases": true
+    },
+
+    {
+      "id": "canned-food-general",
+      "canonical_name": "Canned food (general)",
+      "category": "Food & Nutrition",
+      "subcategory": "Canned food",
+      "aliases": [
+        "canned food",
+        "tinned food",
+        "tins",
+        "canned goods",
+        "food cans",
+        "non perishables",
+        "long life food"
+      ],
+      "tags": ["food", "shelf stable"],
+      "default_unit": "cans",
+      "is_consumable": true,
+      "is_perishable": true,
+      "allow_custom_aliases": true
+    },
+    {
+      "id": "canned-meat",
+      "canonical_name": "Canned meat",
+      "category": "Food & Nutrition",
+      "subcategory": "Canned food",
+      "aliases": [
+        "tinned meat",
+        "meat tins",
+        "spam",
+        "corned beef",
+        "canned chicken",
+        "canned tuna",
+        "canned salmon"
+      ],
+      "tags": ["food", "protein", "shelf stable"],
+      "default_unit": "cans",
+      "is_consumable": true,
+      "is_perishable": true,
+      "allow_custom_aliases": true
+    },
+    {
+      "id": "rice",
+      "canonical_name": "Dry grains (rice)",
+      "category": "Food & Nutrition",
+      "subcategory": "Dry goods",
+      "aliases": [
+        "rice",
+        "white rice",
+        "brown rice",
+        "long grain rice",
+        "dry rice",
+        "bag of rice"
+      ],
+      "tags": ["food", "carbs", "dry goods"],
+      "default_unit": "kilograms",
+      "is_consumable": true,
+      "is_perishable": true,
+      "allow_custom_aliases": true
+    },
+    {
+      "id": "pasta",
+      "canonical_name": "Dry grains (pasta)",
+      "category": "Food & Nutrition",
+      "subcategory": "Dry goods",
+      "aliases": [
+        "pasta",
+        "dry pasta",
+        "spaghetti",
+        "macaroni",
+        "penne",
+        "noodles"
+      ],
+      "tags": ["food", "carbs", "dry goods"],
+      "default_unit": "kilograms",
+      "is_consumable": true,
+      "is_perishable": true,
+      "allow_custom_aliases": true
+    },
+    {
+      "id": "beans-dry",
+      "canonical_name": "Beans (dry)",
+      "category": "Food & Nutrition",
+      "subcategory": "Dry goods",
+      "aliases": [
+        "dry beans",
+        "dried beans",
+        "kidney beans",
+        "black beans",
+        "lentils",
+        "split peas",
+        "chickpeas"
+      ],
+      "tags": ["food", "protein", "dry goods"],
+      "default_unit": "kilograms",
+      "is_consumable": true,
+      "is_perishable": true,
+      "allow_custom_aliases": true
+    },
+    {
+      "id": "freeze-dried-meals",
+      "canonical_name": "Freeze-dried meals",
+      "category": "Food & Nutrition",
+      "subcategory": "Ready meals",
+      "aliases": [
+        "freeze dried food",
+        "freeze dried meals",
+        "survival meals",
+        "camping meals",
+        "hiking meals",
+        "long life meals",
+        "mountain house meals"
+      ],
+      "tags": ["food", "ready meal", "lightweight"],
+      "default_unit": "packs",
+      "is_consumable": true,
+      "is_perishable": true,
+      "allow_custom_aliases": true
+    },
+    {
+      "id": "mre",
+      "canonical_name": "MRE (meal ready to eat)",
+      "category": "Food & Nutrition",
+      "subcategory": "Ready meals",
+      "aliases": [
+        "mre",
+        "mres",
+        "meal ready to eat",
+        "military meals",
+        "ration pack",
+        "ration packs",
+        "army rations"
+      ],
+      "tags": ["food", "ready meal", "ration"],
+      "default_unit": "packs",
+      "is_consumable": true,
+      "is_perishable": true,
+      "allow_custom_aliases": true
+    },
+
+    {
+      "id": "portable-stove",
+      "canonical_name": "Portable stove",
+      "category": "Cooking & Food Prep",
+      "subcategory": "Cooking",
+      "aliases": [
+        "camp stove",
+        "camping stove",
+        "portable cooker",
+        "hiking stove",
+        "gas stove",
+        "survival stove"
+      ],
+      "tags": ["cooking", "camping"],
+      "default_unit": "count",
+      "is_consumable": false,
+      "is_perishable": false,
+      "allow_custom_aliases": true
+    },
+    {
+      "id": "butane-fuel-canister",
+      "canonical_name": "Butane fuel canister",
+      "category": "Cooking & Food Prep",
+      "subcategory": "Fuel",
+      "aliases": [
+        "butane",
+        "butane gas",
+        "butane can",
+        "butane bottle",
+        "stove gas",
+        "gas canister"
+      ],
+      "tags": ["fuel", "cooking"],
+      "default_unit": "cans",
+      "is_consumable": true,
+      "is_perishable": false,
+      "allow_custom_aliases": true
+    },
+    {
+      "id": "manual-can-opener",
+      "canonical_name": "Manual can opener",
+      "category": "Cooking & Food Prep",
+      "subcategory": "Tools",
+      "aliases": [
+        "can opener",
+        "tin opener",
+        "manual tin opener",
+        "manual can opener"
+      ],
+      "tags": ["cooking", "tool"],
+      "default_unit": "count",
+      "is_consumable": false,
+      "is_perishable": false,
+      "allow_custom_aliases": true
+    },
+
+    {
+      "id": "basic-first-aid-kit",
+      "canonical_name": "First aid kit (basic)",
+      "category": "Medical & First Aid",
+      "subcategory": "Kits",
+      "aliases": [
+        "first aid kit",
+        "basic first aid kit",
+        "med kit",
+        "medical kit",
+        "emergency kit",
+        "bandaid kit"
+      ],
+      "tags": ["medical", "first aid"],
+      "default_unit": "count",
+      "is_consumable": false,
+      "is_perishable": true,
+      "allow_custom_aliases": true
+    },
+    {
+      "id": "adhesive-bandages",
+      "canonical_name": "Bandages (adhesive)",
+      "category": "Medical & First Aid",
+      "subcategory": "Wound care",
+      "aliases": [
+        "bandaids",
+        "band aids",
+        "plasters",
+        "adhesive strips",
+        "sticky bandages",
+        "wound strips"
+      ],
+      "tags": ["medical", "wound care"],
+      "default_unit": "count",
+      "is_consumable": true,
+      "is_perishable": true,
+      "allow_custom_aliases": true
+    },
+    {
+      "id": "pain-relief-medication",
+      "canonical_name": "Pain relief medication",
+      "category": "Medical & First Aid",
+      "subcategory": "Medication",
+      "aliases": [
+        "painkillers",
+        "pain killers",
+        "pain meds",
+        "paracetamol",
+        "panadol",
+        "ibuprofen",
+        "nurofen",
+        "aspirin"
+      ],
+      "tags": ["medical", "medication"],
+      "default_unit": "tablets",
+      "is_consumable": true,
+      "is_perishable": true,
+      "allow_custom_aliases": true
+    },
+    {
+      "id": "n95-p2-face-masks",
+      "canonical_name": "Face masks (P2/N95)",
+      "category": "Medical & First Aid",
+      "subcategory": "PPE",
+      "aliases": [
+        "n95 mask",
+        "n95 masks",
+        "p2 mask",
+        "p2 masks",
+        "respirator mask",
+        "dust mask",
+        "face mask",
+        "medical mask"
+      ],
+      "tags": ["medical", "ppe", "respiratory"],
+      "default_unit": "count",
+      "is_consumable": true,
+      "is_perishable": false,
+      "allow_custom_aliases": true
+    },
+
+    {
+      "id": "tent",
+      "canonical_name": "Tent",
+      "category": "Shelter & Warmth",
+      "subcategory": "Shelter",
+      "aliases": [
+        "tent",
+        "camping tent",
+        "survival tent",
+        "shelter tent",
+        "two person tent",
+        "four person tent"
+      ],
+      "tags": ["shelter", "camping"],
+      "default_unit": "count",
+      "is_consumable": false,
+      "is_perishable": false,
+      "allow_custom_aliases": true
+    },
+    {
+      "id": "tarp",
+      "canonical_name": "Tarp shelter",
+      "category": "Shelter & Warmth",
+      "subcategory": "Shelter",
+      "aliases": [
+        "tarp",
+        "tarpaulin",
+        "shelter tarp",
+        "rain tarp",
+        "ground tarp",
+        "shade tarp"
+      ],
+      "tags": ["shelter", "rain cover"],
+      "default_unit": "count",
+      "is_consumable": false,
+      "is_perishable": false,
+      "allow_custom_aliases": true
+    },
+    {
+      "id": "sleeping-bag",
+      "canonical_name": "Sleeping bag",
+      "category": "Shelter & Warmth",
+      "subcategory": "Sleep",
+      "aliases": [
+        "sleeping bag",
+        "sleep bag",
+        "camping sleeping bag",
+        "cold weather bag",
+        "winter sleeping bag"
+      ],
+      "tags": ["sleep", "warmth"],
+      "default_unit": "count",
+      "is_consumable": false,
+      "is_perishable": false,
+      "allow_custom_aliases": true
+    },
+
+    {
+      "id": "multi-tool",
+      "canonical_name": "Multi-tool",
+      "category": "Tools & Equipment",
+      "subcategory": "Hand tools",
+      "aliases": [
+        "multitool",
+        "multi tool",
+        "leatherman",
+        "swiss army knife",
+        "all in one tool",
+        "pocket tool"
+      ],
+      "tags": ["tool", "repair"],
+      "default_unit": "count",
+      "is_consumable": false,
+      "is_perishable": false,
+      "allow_custom_aliases": true
+    },
+    {
+      "id": "duct-tape",
+      "canonical_name": "Duct tape",
+      "category": "Tools & Equipment",
+      "subcategory": "Repair",
+      "aliases": [
+        "duct tape",
+        "duck tape",
+        "gaffer tape",
+        "repair tape",
+        "strong tape"
+      ],
+      "tags": ["repair", "tape"],
+      "default_unit": "rolls",
+      "is_consumable": true,
+      "is_perishable": false,
+      "allow_custom_aliases": true
+    },
+
+    {
+      "id": "disposable-lighter",
+      "canonical_name": "Lighter (disposable)",
+      "category": "Fire & Lighting",
+      "subcategory": "Fire",
+      "aliases": [
+        "lighter",
+        "bic lighter",
+        "cheap lighter",
+        "plastic lighter",
+        "disposable lighter"
+      ],
+      "tags": ["fire", "ignition"],
+      "default_unit": "count",
+      "is_consumable": true,
+      "is_perishable": false,
+      "allow_custom_aliases": true
+    },
+    {
+      "id": "ferro-rod",
+      "canonical_name": "Ferro rod (fire starter)",
+      "category": "Fire & Lighting",
+      "subcategory": "Fire",
+      "aliases": [
+        "ferro rod",
+        "fire steel",
+        "firesteel",
+        "spark rod",
+        "striker",
+        "magnesium rod",
+        "flint striker"
+      ],
+      "tags": ["fire", "ignition"],
+      "default_unit": "count",
+      "is_consumable": false,
+      "is_perishable": false,
+      "allow_custom_aliases": true
+    },
+    {
+      "id": "flashlight",
+      "canonical_name": "Flashlight",
+      "category": "Fire & Lighting",
+      "subcategory": "Lighting",
+      "aliases": [
+        "flashlight",
+        "torch",
+        "led torch",
+        "hand torch",
+        "battery torch"
+      ],
+      "tags": ["light", "electric"],
+      "default_unit": "count",
+      "is_consumable": false,
+      "is_perishable": false,
+      "allow_custom_aliases": true
+    },
+    {
+      "id": "headlamp",
+      "canonical_name": "Headlamp",
+      "category": "Fire & Lighting",
+      "subcategory": "Lighting",
+      "aliases": [
+        "headlamp",
+        "head lamp",
+        "head torch",
+        "head light",
+        "wearable light"
+      ],
+      "tags": ["light", "hands free"],
+      "default_unit": "count",
+      "is_consumable": false,
+      "is_perishable": false,
+      "allow_custom_aliases": true
+    },
+    {
+      "id": "aa-batteries",
+      "canonical_name": "Batteries (AA)",
+      "category": "Fire & Lighting",
+      "subcategory": "Batteries",
+      "aliases": [
+        "aa batteries",
+        "double a batteries",
+        "aa cells",
+        "aa battery"
+      ],
+      "tags": ["battery", "power"],
+      "default_unit": "batteries",
+      "is_consumable": true,
+      "is_perishable": true,
+      "allow_custom_aliases": true
+    },
+
+    {
+      "id": "two-way-radio",
+      "canonical_name": "Two-way radio",
+      "category": "Communication & Navigation",
+      "subcategory": "Communication",
+      "aliases": [
+        "two way radio",
+        "walkie talkie",
+        "walkie-talkie",
+        "handheld radio",
+        "uhf radio",
+        "cb radio"
+      ],
+      "tags": ["communication", "radio"],
+      "default_unit": "count",
+      "is_consumable": false,
+      "is_perishable": false,
+      "allow_custom_aliases": true
+    },
+    {
+      "id": "emergency-radio",
+      "canonical_name": "Emergency radio (hand crank)",
+      "category": "Communication & Navigation",
+      "subcategory": "Communication",
+      "aliases": [
+        "emergency radio",
+        "crank radio",
+        "hand crank radio",
+        "survival radio",
+        "weather radio"
+      ],
+      "tags": ["communication", "radio", "emergency"],
+      "default_unit": "count",
+      "is_consumable": false,
+      "is_perishable": false,
+      "allow_custom_aliases": true
+    },
+    {
+      "id": "compass",
+      "canonical_name": "Compass",
+      "category": "Communication & Navigation",
+      "subcategory": "Navigation",
+      "aliases": [
+        "compass",
+        "navigation compass",
+        "hiking compass",
+        "map compass"
+      ],
+      "tags": ["navigation"],
+      "default_unit": "count",
+      "is_consumable": false,
+      "is_perishable": false,
+      "allow_custom_aliases": true
+    },
+
+    {
+      "id": "toilet-paper",
+      "canonical_name": "Toilet paper",
+      "category": "Hygiene & Sanitation",
+      "subcategory": "Hygiene",
+      "aliases": [
+        "toilet paper",
+        "tp",
+        "loo roll",
+        "toilet roll",
+        "dunny paper"
+      ],
+      "tags": ["hygiene", "sanitation"],
+      "default_unit": "rolls",
+      "is_consumable": true,
+      "is_perishable": false,
+      "allow_custom_aliases": true
+    },
+    {
+      "id": "wet-wipes",
+      "canonical_name": "Wet wipes",
+      "category": "Hygiene & Sanitation",
+      "subcategory": "Hygiene",
+      "aliases": [
+        "wet wipes",
+        "wipes",
+        "baby wipes",
+        "cleaning wipes",
+        "wet tissues"
+      ],
+      "tags": ["hygiene", "cleaning"],
+      "default_unit": "packs",
+      "is_consumable": true,
+      "is_perishable": true,
+      "allow_custom_aliases": true
+    },
+    {
+      "id": "hand-sanitiser",
+      "canonical_name": "Hand sanitiser",
+      "category": "Hygiene & Sanitation",
+      "subcategory": "Hygiene",
+      "aliases": [
+        "hand sanitiser",
+        "hand sanitizer",
+        "sanitiser",
+        "sanitizer",
+        "hand gel",
+        "alcohol gel"
+      ],
+      "tags": ["hygiene", "disinfectant"],
+      "default_unit": "millilitres",
+      "is_consumable": true,
+      "is_perishable": true,
+      "allow_custom_aliases": true
+    },
+
+    {
+      "id": "power-bank",
+      "canonical_name": "Power bank",
+      "category": "Power & Energy",
+      "subcategory": "Battery",
+      "aliases": [
+        "power bank",
+        "powerbank",
+        "battery pack",
+        "portable charger",
+        "usb battery",
+        "phone charger"
+      ],
+      "tags": ["power", "charging"],
+      "default_unit": "count",
+      "is_consumable": false,
+      "is_perishable": false,
+      "allow_custom_aliases": true
+    },
+    {
+      "id": "portable-solar-panel",
+      "canonical_name": "Solar panel (portable)",
+      "category": "Power & Energy",
+      "subcategory": "Solar",
+      "aliases": [
+        "solar panel",
+        "portable solar panel",
+        "folding solar panel",
+        "solar charger",
+        "solar usb"
+      ],
+      "tags": ["power", "solar"],
+      "default_unit": "count",
+      "is_consumable": false,
+      "is_perishable": false,
+      "allow_custom_aliases": true
+    },
+    {
+      "id": "portable-generator",
+      "canonical_name": "Generator (portable)",
+      "category": "Power & Energy",
+      "subcategory": "Generator",
+      "aliases": [
+        "generator",
+        "portable generator",
+        "genset",
+        "backup generator",
+        "petrol generator"
+      ],
+      "tags": ["power", "backup"],
+      "default_unit": "count",
+      "is_consumable": false,
+      "is_perishable": false,
+      "allow_custom_aliases": true
+    },
+
+    {
+      "id": "bug-out-bag",
+      "canonical_name": "Backpack (bug-out bag)",
+      "category": "Transport & Mobility",
+      "subcategory": "Carry",
+      "aliases": [
+        "backpack",
+        "bug out bag",
+        "bug-out bag",
+        "bob",
+        "go bag",
+        "survival pack",
+        "emergency bag"
+      ],
+      "tags": ["carry", "evacuation"],
+      "default_unit": "count",
+      "is_consumable": false,
+      "is_perishable": false,
+      "allow_custom_aliases": true
+    },
+    {
+      "id": "fuel-jerry-can",
+      "canonical_name": "Jerry can (fuel)",
+      "category": "Transport & Mobility",
+      "subcategory": "Fuel storage",
+      "aliases": [
+        "jerry can",
+        "fuel can",
+        "petrol can",
+        "gas can",
+        "diesel can",
+        "fuel container"
+      ],
+      "tags": ["fuel", "storage"],
+      "default_unit": "litres",
+      "is_consumable": false,
+      "is_perishable": false,
+      "allow_custom_aliases": true
+    },
+
+    {
+      "id": "cash-small-bills",
+      "canonical_name": "Cash (small bills)",
+      "category": "Documents & Essentials",
+      "subcategory": "Money",
+      "aliases": [
+        "cash",
+        "money",
+        "small notes",
+        "emergency cash",
+        "spare cash",
+        "paper money"
+      ],
+      "tags": ["money", "documents"],
+      "default_unit": "count",
+      "is_consumable": false,
+      "is_perishable": false,
+      "allow_custom_aliases": true
+    },
+    {
+      "id": "id-document-copies",
+      "canonical_name": "ID documents (copies)",
+      "category": "Documents & Essentials",
+      "subcategory": "Documents",
+      "aliases": [
+        "id copies",
+        "identification copies",
+        "passport copies",
+        "licence copy",
+        "license copy",
+        "document copies",
+        "important documents"
+      ],
+      "tags": ["documents", "identity"],
+      "default_unit": "count",
+      "is_consumable": false,
+      "is_perishable": false,
+      "allow_custom_aliases": true
+    }
+  ]
+}
